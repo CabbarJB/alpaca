@@ -277,9 +277,12 @@ color: black;
     flex-direction: column;
     justify-content: space-between;
     transition: ease-in 0.3s;
+    z-index: 99;
+    top: 0;
 }
 .right-menu-visible{
     right: 0;
+    top: 0;
 }
 .right-menu-top{
     padding: 30px 150px;

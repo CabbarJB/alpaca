@@ -60,12 +60,12 @@ function handleSearchBarClick() {
     })
 
     input.addEventListener('blur' , ()=>{
-        bar.classList.remove('searchbar-visible');
-        input.style.display = 'none';
-        icon.style.display = 'none';
-        btn.style.display = 'block';
-        wrapper.classList.add('search-btn-wrapper-width')
-        lang.style.display = 'block'
+            bar.classList.remove('searchbar-visible');
+            input.style.display = 'none';
+            icon.style.display = 'none';
+            btn.style.display = 'block';
+            wrapper.classList.add('search-btn-wrapper-width')
+            lang.style.display = 'block'
 
     })
 
